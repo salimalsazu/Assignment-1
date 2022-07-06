@@ -64,6 +64,8 @@
     color: #FFFFFF;
 }
 
+/* Hero Section Style End */
+
 /* Donate Today Style Start */
 .donate-today {
     width: 100%;
@@ -151,7 +153,6 @@
 }
 
 .submit-amount input {
-    text-align: center;
     width: 730px;
     padding: 15px 15px;
     border: none;
@@ -340,7 +341,6 @@
     border-radius: 100%;
     text-align: center;
     background-color: gray;
-
     color: #fff;
     margin-bottom: 25px;
 }
@@ -439,6 +439,10 @@
     padding: 12px 10px;
 }
 
+/* Update Section Style End */
+
+
+/* Footer Section Style Start */
 
 footer {
     width: 100%;
@@ -468,4 +472,4 @@ footer p {
     margin-top: 25px;
 }
 
-/* Update Section Style End */
+/* Footer Section Style End */
