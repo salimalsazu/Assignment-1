@@ -66,7 +66,7 @@
 /* Donate Today Style Start */
 .donate-today {
     width: 100%;
-    height: 669px;
+    height: 620px;
 }
 
 .donate-today-text {
@@ -105,6 +105,7 @@
     background: #FAFAFA;
     border-radius: 5px;
     margin-top: 35px;
+    margin-right: 25px;
 }
 
 .donate-today-box1 h3 {
@@ -115,12 +116,16 @@
     line-height: 36px;
     text-align: center;
     color: #707070;
-    padding: 45px 25px;
+    padding: 45px 10px;
 }
 
 .donate-today-box2 {
-    width: 136px;
+    width: 135px;
     height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-right: 25px;
     background: #FFEEEE;
     border: 2px solid #FF5959;
     border-radius: 5px;
@@ -133,7 +138,55 @@
     line-height: 36px;
     text-align: center;
     color: #FF5959;
-    padding: 45px 25px;
+    padding: 45px 10px;
+}
+
+.submit-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.submit-amount input {
+    text-align: center;
+    width: 730px;
+    padding: 15px 15px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.donate-btn {
+    width: 160px;
+    height: 56px;
+    padding: 16px 12px;
+    align-items: center;
+    background: #FF5959;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* Donate Today  Style End */
